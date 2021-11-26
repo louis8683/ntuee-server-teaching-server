@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, th, td, li {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+/* Header */
+header {
+    display: flex;
+    padding-block: 2em;
+}
+
+h1 {
+    font-weight: 700;
+    margin: auto;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    margin-right: 5em;
+    margin-top: 5em;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 0.2rem solid gainsboro;
+}
+
+th, td {
+    margin: 3em;
+    padding: 1em;
+}
+
+th {
+    font-weight: 700;
+}
+
+td {
+    text-align: center;
+}
+
+ul {
+    margin-left: 5em;
+    margin-top: 5em;
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+    padding-block: 0.3em;
+}
+
+.highlight {
+    color: blue
+}
